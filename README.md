@@ -167,14 +167,16 @@ Sound + Notifications
 ## Screenshots
 
 Desktop App  
-docs/client-main-page.png
+
+![Desktop App](docs/client-main-page.png)
 
 Tray Notification  
-docs/client-notification-tray.png
+
+![Tray Notification](docs/client-notification-tray.png)
 
 Web Dashboard  
-docs/web-page-on-browser.png
 
+![Web Dashboard](docs/web-page-on-browser.png)
 ---
 
 ## Future Improvements
