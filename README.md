@@ -40,20 +40,32 @@ This project turns a simple touch sensor into a real-time smart notification sys
 
 ### Web Dashboard (ESP32)
 
-ESP32 hosts a built-in web page:
+The ESP32 hosts a built-in web dashboard that can be accessed from any device on the same network.
 
-- Live status updates via WebSocket
-- Shows “Someone is at the door!”
-- Plays sound in browser
-- Browser notifications (if allowed)
-- Works without desktop app
+#### Features
 
-URL:
+* Real-time updates via WebSocket
+* Instant doorbell status notifications
+* Custom sound playback in the browser
+* Automatic reconnection if the connection is lost
+* Lightweight monitoring without the desktop client
+
+#### Default URL
+
+```text
 http://192.168.1.50/
+```
 
-Use case:
-- Open in Chrome / Edge
-- Keep tab open for lightweight monitoring
+> **Note**
+>
+> `192.168.1.50` is the default static IP configured in the firmware. If you change the IP address in the source code before flashing the ESP32, use the new address instead.
+
+#### Use Case
+
+* Open the dashboard in Chrome, Edge, Firefox, or any modern browser.
+* Keep the page open on a PC, tablet, or phone for live monitoring.
+* No additional software installation is required.
+
 
 ---
 
