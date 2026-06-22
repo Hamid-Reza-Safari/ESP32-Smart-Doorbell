@@ -86,8 +86,6 @@ When event received:
 - Logs event with timestamp
 - Runs in system tray
 
-Even if window is closed, app continues running.
-
 ---
 
 ### 4. Web Browser Behavior
@@ -110,6 +108,13 @@ If page is open:
 | Buzzer - | GND |
 
 
+
+## Wiring Diagram
+
+![Wiring Diagram](docs/diagram.png)
+
+
+---
 ## Software Stack
 
 ### ESP32
