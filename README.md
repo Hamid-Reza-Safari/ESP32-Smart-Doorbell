@@ -123,7 +123,7 @@ If page is open:
 
 ## Wiring Diagram
 
-![Wiring Diagram](docs/diagram.png)
+![Wiring Diagram](docs/wiring_diagram.png)
 
 
 ---
