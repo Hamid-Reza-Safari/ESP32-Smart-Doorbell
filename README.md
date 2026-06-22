@@ -68,7 +68,24 @@ http://192.168.1.50/
 
 
 ---
+## Hardware
 
+| Component | Connection |
+|----------|------------|
+| Touch SIG | GPIO 4 |
+| VCC | 3.3V |
+| GND | GND |
+| Buzzer + | GPIO 18 |
+| Buzzer - | GND |
+
+
+
+## Wiring Diagram
+
+![Wiring Diagram](docs/wiring_diagram.png)
+
+
+---
 ## How It Works
 
 ### 1. Touch Event
@@ -109,24 +126,7 @@ If page is open:
 
 ---
 
-## Hardware
 
-| Component | Connection |
-|----------|------------|
-| Touch SIG | GPIO 4 |
-| VCC | 3.3V |
-| GND | GND |
-| Buzzer + | GPIO 18 |
-| Buzzer - | GND |
-
-
-
-## Wiring Diagram
-
-![Wiring Diagram](docs/wiring_diagram.png)
-
-
----
 ## Software Stack
 
 ### ESP32
